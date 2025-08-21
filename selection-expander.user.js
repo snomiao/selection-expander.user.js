@@ -10,7 +10,7 @@
 // @name:pt         [SNOLAB] Expansor de seleção
 // @name:it         [SNOLAB] Espansore di selezione
 // @namespace       snomiao@gmail.com
-// @version         0.0.4
+// @version         0.0.5
 // @description     Shift+Alt+Right/Left to Expand/Shirink Selection to parent elements. (vise versa) just like vscode
 // @description:zh  Shift+Alt+Right/Left to 扩大/缩小 文字选区，常用于代码复制等操作（反之也可）。 just like vscode
 // @description:ja  Shift+Alt+Right/Leftで選択範囲を親要素まで拡大/縮小します。VSCodeのような操作です
