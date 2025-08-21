@@ -1,15 +1,31 @@
 // ==UserScript==
 // @name            [SNOLAB] Selection expander
 // @name:zh         [SNOLAB] 选区扩展器
+// @name:ja         [SNOLAB] 選択範囲拡張ツール
+// @name:ko         [SNOLAB] 선택 영역 확장기
+// @name:es         [SNOLAB] Expansor de selección
+// @name:fr         [SNOLAB] Expandeur de sélection
+// @name:de         [SNOLAB] Auswahlerweiterer
+// @name:ru         [SNOLAB] Расширитель выделения
+// @name:pt         [SNOLAB] Expansor de seleção
+// @name:it         [SNOLAB] Espansore di selezione
 // @namespace       snomiao@gmail.com
 // @version         0.0.4
 // @description     Shift+Alt+Right/Left to Expand/Shirink Selection to parent elements. (vise versa) just like vscode
 // @description:zh  Shift+Alt+Right/Left to 扩大/缩小 文字选区，常用于代码复制等操作（反之也可）。 just like vscode
+// @description:ja  Shift+Alt+Right/Leftで選択範囲を親要素まで拡大/縮小します。VSCodeのような操作です
+// @description:ko  Shift+Alt+Right/Left로 선택 영역을 부모 요소까지 확장/축소합니다. VSCode와 같은 기능입니다
+// @description:es  Shift+Alt+Right/Left para expandir/contraer la selección a elementos padre. Como en vscode
+// @description:fr  Shift+Alt+Right/Left pour étendre/réduire la sélection aux éléments parents. Comme dans vscode
+// @description:de  Shift+Alt+Right/Left zum Erweitern/Verkleinern der Auswahl auf übergeordnete Elemente. Wie in vscode
+// @description:ru  Shift+Alt+Right/Left для расширения/сжатия выделения до родительских элементов. Как в vscode
+// @description:pt  Shift+Alt+Right/Left para expandir/contrair a seleção para elementos pai. Como no vscode
+// @description:it  Shift+Alt+Right/Left per espandere/contrarre la selezione agli elementi padre. Come in vscode
 // @author          snomiao
 // @match           *://*/*
 // @grant           none
 // ==/UserScript==
-// note: migrated to https://gist.github.com/snomiao/7e4d17e1b618167654c4d1ae0dc23cd3f
+// note: migrated from https://gist.github.com/snomiao/7e4d17e1b618167654c4d1ae0dc23cd3f
 
 globalThis?.selectionExpander?.unload?.();
 
